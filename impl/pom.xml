@@ -27,7 +27,7 @@
     <parent>
         <groupId>com.sun.faces</groupId>
         <artifactId>jsf-project</artifactId>
-        <version>2.3.17.SP01</version>
+        <version>2.3.17.SP01.xm1</version>
     </parent>
 
     <groupId>com.sun.faces</groupId>
@@ -41,7 +41,7 @@
         <connection>scm:git:git@github.com:jboss/mojarra.git</connection>
         <developerConnection>scm:git:git@github.com:jboss/mojarra.git</developerConnection>
         <url>https://github.com/jboss/mojarra.git</url>
-      <tag>2.3.17.SP01</tag>
+      <tag>2.3.17.SP01.xm1</tag>
   </scm>
     
     <properties>
@@ -326,23 +326,23 @@
                         <Bundle-SymbolicName>org.glassfish.jakarta.faces</Bundle-SymbolicName>
                         <Bundle-Version>${project.version}</Bundle-Version>
                         <Bundle-Name>Mojarra JSF Implementation ${project.version}</Bundle-Name>
-                        <Bundle-Description>Eclipse Faces Implementation (jakarta.faces/2.3) ${project.version}</Bundle-Description>                        
-                        
+                        <Bundle-Description>Eclipse Faces Implementation (jakarta.faces/2.3) ${project.version}</Bundle-Description>
+
                         <Specification-Title>Jakarta Server Faces</Specification-Title>
                         <Specification-Version>2.3</Specification-Version>
-                        
-                        <Implementation-Title>Mojarra</Implementation-Title> 
+
+                        <Implementation-Title>Mojarra</Implementation-Title>
                         <Implementation-Version>${project.version}</Implementation-Version>
-                        <Implementation-Vendor>Eclipse</Implementation-Vendor> 
+                        <Implementation-Vendor>Eclipse</Implementation-Vendor>
                         <Implementation-Vendor-Id>org.glassfish</Implementation-Vendor-Id>
-                        
+
                         <Extension-Name>javax.faces</Extension-Name>
-                        
+
                         <Export-Package>
                             javax.faces.*;version=2.3,
                             com.sun.faces.*;version=2.3
                         </Export-Package>
-                        
+
                         <Import-Package>
                             javax.faces.*,
                             com.sun.faces.*,
@@ -420,7 +420,7 @@
                     </archive>
                 </configuration>
             </plugin>
-            
+
             
             <!-- ###  V A L I D A T I O N  ### --> 
             
